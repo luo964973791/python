@@ -4,7 +4,7 @@
 yum install gcc gcc-c++ make openssl openssl-devel libffi-devel zlib* -y
 tar zxvf Python-3.x.x.tgz
 cd Python-3.x.x.tgz
-./configure --prefix=/usr/local/python3 --with-ssl
+./configure --prefix=/usr/local/python3 --with-ssl && make && make install
 ```
 
 ### 软连接
