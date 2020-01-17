@@ -28,11 +28,3 @@ vi /usr/share/createrepo/worker.py
 #!/usr/bin/python2.7 -tt
 ```
 
-### 测试python
-
-```python
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-print('test!')
-```
-
