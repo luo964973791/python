@@ -1,6 +1,6 @@
 ### Python2升级到Python3
 
-```
+```shell
 yum install gcc gcc-c++ make openssl openssl-devel libffi-devel zlib* -y
 tar zxvf Python-3.x.x.tgz
 cd Python-3.x.x.tgz
@@ -9,14 +9,14 @@ cd Python-3.x.x.tgz
 
 ### 软连接
 
-```
+```shell
 ln -s /usr/local/python3/bin/python3 /usr/bin/python
 ln -s /usr/local/python3/bin/pip3 /usr/bin/pip
 ```
 
 ### 分别更改python路径，分别将将文件第一行改成#! /usr/bin/python2.7
 
-```
+```shell
 vi /usr/bin/yum
 #! /usr/bin/python2.7
 vi /usr/libexec/urlgrabber-ext-down
