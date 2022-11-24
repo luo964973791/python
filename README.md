@@ -28,3 +28,9 @@ vi /usr/share/createrepo/worker.py
 #!/usr/bin/python2.7 -tt
 ```
 
+```shell
+#检查python脚本语法工具
+pre-commit install
+pre-commit sample-config >.pre-commit-config.yaml
+flake8+pylint+black
+```
