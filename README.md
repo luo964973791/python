@@ -30,6 +30,7 @@ vi /usr/share/createrepo/worker.py
 
 ```shell
 #检查python脚本语法工具
+pip3 install {flake8,pylint,black,pre-commit}
 pre-commit install
 pre-commit sample-config >.pre-commit-config.yaml
 flake8+pylint+black
