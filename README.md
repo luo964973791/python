@@ -35,3 +35,10 @@ pre-commit install
 pre-commit sample-config >.pre-commit-config.yaml
 flake8+pylint+black
 ```
+
+
+```shell
+#离线安装pip依赖.
+pip download -d /root/down -r requirement.txt
+pip install /root/down/*.whl  #拷贝到内网服务器安装.
+```
