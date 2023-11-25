@@ -42,3 +42,27 @@ flake8+pylint+black
 pip download -d /root/down -r requirement.txt
 pip install /root/down/*.whl  #拷贝到内网服务器安装.
 ```
+
+
+```shell
+#搭建pip仓库
+pip3 install bandersnatch
+grep -v '^;' /etc/bandersnatch.conf
+
+[mirror]
+directory = /root/pypi
+json = false
+release-files = true
+cleanup = false
+master = https://pypi.org
+timeout = 30
+global-timeout = 1800
+workers = 3
+hash-index = false
+stop-on-error = false
+storage-backend = filesystem
+verifiers = 3
+
+
+bandersnatch mirror
+```
