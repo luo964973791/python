@@ -1,7 +1,7 @@
 ### Python2升级到Python3
 
 ```shell
-yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make libffi-devel liblzma-devel
+yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make libffi-devel xz-devel
 wget https://www.python.org/ftp/python/3.8.13/Python-3.8.13.tgz
 tar zxvf Python-3.8.13.tgz
 cd Python-3.8.13
