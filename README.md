@@ -7,7 +7,7 @@ cd Python-3.x.x.tgz
 ./configure --prefix=/usr/local/python3 --with-ssl && make && make install
 
 #第二种方法.
-yum install rh-python38 -y && scl enable rh-python38 bash && pip install --upgrade pip && pip install --upgrade setuptools
+yum install centos-release-scl && yum install rh-python38 -y && scl enable rh-python38 bash && pip install --upgrade pip && pip install --upgrade setuptools
 ```
 
 ### 软连接
