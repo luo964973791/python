@@ -5,7 +5,7 @@ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel r
 wget https://www.python.org/ftp/python/3.8.13/Python-3.8.13.tgz
 tar zxvf Python-3.8.13.tgz
 cd Python-3.8.13
-./configure --enable-optimizations
+./configure
 make
 make install
 ```
