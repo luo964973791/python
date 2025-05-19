@@ -13,8 +13,8 @@ make install
 ### 软连接
 
 ```shell
-ln -s /usr/local/python3/bin/python3 /usr/bin/python
-ln -s /usr/local/python3/bin/pip3 /usr/bin/pip
+ln -s /usr/local/python3/bin/python3 /usr/bin/python3
+ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
 ```
 
 ### 分别更改python路径，分别将将文件第一行改成#! /usr/bin/python2.7
